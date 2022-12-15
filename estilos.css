@@ -11,6 +11,7 @@
 }
 body {
     background-color: #222;
+    text-align: center;
 }
 /*--------------------------------------------NAV-------------------------------------*/
 .nav {
@@ -44,7 +45,7 @@ body {
 .full_stack {
     display: grid;
     grid-template-columns: repeat(min-content);
-    grid-template-rows: repeat(3,175px);
+    grid-template-rows: repeat(3,120px);
     margin: 20px;
 }
 
@@ -265,7 +266,7 @@ footer {
 }
 .redes {
     display: grid;
-    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-columns: repeat(5, 100px);
     grid-template-rows: 100px;
     justify-content: center;
 }
